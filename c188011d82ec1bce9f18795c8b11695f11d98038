@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_21b8abc6",
+        "filename": "src/org/cyanogenmod/themeservice/ThemeManagerService.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-07-21T16:28:23Z",
+      "side": 1,
+      "message": "should tehse permission checks be on the brokered service side? it\u0027s the one calling into here, and it might have more permissions",
+      "range": {
+        "startLine": 219,
+        "startChar": 12,
+        "endLine": 219,
+        "endChar": 29
+      },
+      "revId": "c188011d82ec1bce9f18795c8b11695f11d98038",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
