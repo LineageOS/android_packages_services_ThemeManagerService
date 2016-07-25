@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_b202a008",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-07-25T14:27:15Z",
+      "side": 1,
+      "message": "needs updating",
+      "range": {
+        "startLine": 2,
+        "startChar": 19,
+        "endLine": 2,
+        "endChar": 55
+      },
+      "revId": "041495eb2350d8d8d374bc8c750ebb7e3deb8797",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_924d2474",
+        "filename": "res/values/strings.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-07-25T14:27:15Z",
+      "side": 1,
+      "message": "would look better in the app listing to capitalize each letter in the name in my opinion",
+      "range": {
+        "startLine": 18,
+        "startChar": 34,
+        "endLine": 18,
+        "endChar": 43
+      },
+      "revId": "041495eb2350d8d8d374bc8c750ebb7e3deb8797",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_32d8f07d",
+        "filename": "src/org/cyanogenmod/themeservice/ThemeManagerService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-07-25T14:27:15Z",
+      "side": 1,
+      "message": "with handlers that run in a non-main thread looper, i\u0027ve been using Handler.Callbacks for processing, and making the actual handler class static (with weak references to the outer class)",
+      "revId": "041495eb2350d8d8d374bc8c750ebb7e3deb8797",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_92e9a41b",
+        "filename": "src/org/cyanogenmod/themeservice/ThemeManagerService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 281,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-07-25T14:27:15Z",
+      "side": 1,
+      "message": "double check: will this sync on the IBinder instead of the service?",
+      "range": {
+        "startLine": 281,
+        "startChar": 25,
+        "endLine": 281,
+        "endChar": 29
+      },
+      "revId": "041495eb2350d8d8d374bc8c750ebb7e3deb8797",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_72f668fc",
+        "filename": "src/org/cyanogenmod/themeservice/ThemeManagerService.java",
+        "patchSetId": 3
+      },
+      "lineNbr": 343,
+      "author": {
+        "id": 9045
+      },
+      "writtenOn": "2016-07-25T14:27:15Z",
+      "side": 1,
+      "message": "didn\u0027t see a matching ondestroy to clean all these up",
+      "range": {
+        "startLine": 343,
+        "startChar": 16,
+        "endLine": 343,
+        "endChar": 24
+      },
+      "revId": "041495eb2350d8d8d374bc8c750ebb7e3deb8797",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
